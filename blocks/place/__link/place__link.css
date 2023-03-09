@@ -1,0 +1,23 @@
+
+.place__link {
+    margin: 0;
+    max-width: 456px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    text-decoration-style: solid;
+    font-family: 'Inter', Arial, sans-serif;
+}
+.place__link:hover {
+    opacity: 0.8;
+    transition: all ease-in-out 0.2s;
+}
+@media screen and (max-width: 320px) {
+    .place__link  {
+        padding-left: 16px;
+        padding-bottom: 32px;
+    }
+}

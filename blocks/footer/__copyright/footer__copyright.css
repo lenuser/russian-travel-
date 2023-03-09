@@ -1,0 +1,30 @@
+
+.footer__copyright {
+    align-self: center;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #FFFFFF;
+    padding-right: 48px;
+    font-family: 'Inter', Arial, sans-serif;
+}
+@media screen and (max-width: 768px) {
+    .footer__copyright {
+        padding-right: 24px;
+    } 
+}
+@media screen and (max-width: 600px) {
+    .footer__copyright  {
+        align-self: end;
+    }
+}
+@media screen and (max-width: 660px) {
+    .footer__copyright {
+        align-self: start;
+        padding-top: 48px;
+        padding-left: 16px;
+    } 
+}

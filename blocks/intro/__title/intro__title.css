@@ -1,0 +1,38 @@
+
+.intro__title {
+    margin: 0;
+    max-width: 690px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+    font-family: 'Inter', Arial, sans-serif;
+    
+}
+@media screen and (max-width: 1024px) {
+    .intro__title {
+        padding-left: 48px;
+    } 
+}
+@media screen and (max-width: 768px) {
+    .intro__title {
+        padding-left: 24px;
+    } 
+}
+@media screen and (max-width: 500px) {
+    .intro__title {
+        font-size: 32px;
+    } 
+}
+@media screen and (max-width: 320px) {
+    .intro__title {
+        grid-area:titlel;
+        box-sizing: border-box;
+        padding: 0;
+        padding-bottom: 40px;
+        line-height: 35px;
+        margin-left: 16px;
+    } 
+}

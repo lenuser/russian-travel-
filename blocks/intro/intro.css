@@ -1,0 +1,28 @@
+.intro {
+    max-width: 720px;
+    padding-bottom: 92px;
+    margin: 0 148px;
+    
+}
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: 768px;
+        padding-bottom: 88px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .intro {
+        max-width: 320px;
+        display: grid;
+        grid-template-areas:
+            "titlel"
+            "textt"
+            "list";
+        padding: 0;
+    }
+}

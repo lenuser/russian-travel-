@@ -1,0 +1,7 @@
+
+.place__website {
+    grid-area: url;
+    align-self: self-end;
+    max-width: 456px;
+}
+
